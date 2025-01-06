@@ -1,0 +1,12 @@
+venv*/
+*.pyc
+.vscode/
+.idea/
+*.egg-info/
+.eggs/
+.pytest_cache/
+.tool-versions
+dist/
+build/
+.coverage
+htmlcov/
