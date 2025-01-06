@@ -198,7 +198,3 @@ class Query(object):
     def resolve_all_ingredients(root, info):
         return gql_optimizer.query(Ingredient.objects.all(), info, disable_abort_only=True)
 ```
-
-## Contributing
-
-See [CONTRIBUTING.md](./CONTRIBUTING.md)
